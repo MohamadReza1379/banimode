@@ -14,8 +14,8 @@ import imglicense4 from "./../../assets/pics/license/license4.png";
 
 const footerListData =  [
     {title: "خرید" , list : ["خرید لباس" ,"لباس مردانه" ,"لباس زنانه" ,"لباس بچگانه" ,"خرید لوازم آرایشی"]} ,
-    {title: "خرید" , list : ["خرید لباس" ,"لباس مردانه" ,"لباس زنانه" ,"لباس بچگانه" ,"خرید لوازم آرایشی"]} ,
-    {title: "خرید" , list : ["خرید لباس" ,"لباس مردانه" ,"لباس زنانه" ,"لباس بچگانه" ,"خرید لوازم آرایشی"]} ,
+    {title: "خدمات مشتریان" , list : ["پرسش های متداول " ,"شرایط بازگشت " ," راهنمای خرید" ,"لباس بچگانه" ,"  فروش B2B"]} ,
+    {title: "اطلاعات بانی مد" , list : [" درباره ما" ,"قوانین و مقررات" ,"تماس با ما" ,"فرصت های شغلی" ,]} ,
 ]
 
 
@@ -99,10 +99,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="Footer-down-right flex items-center justify-end ">
-                    <img src={imglicense1} className="w-1/6 cursor-pointer mx-1" />
+                    <img src={imglicense1} className="w-1/6 cursor-pointer ml-1" />
                     <img src={imglicense2} className="w-1/6 cursor-pointer mx-1" />
                     <img src={imglicense3} className="w-1/6 cursor-pointer mx-1" />
-                    <img src={imglicense4} className="w-1/6 cursor-pointer mx-1" />
+                    <img src={imglicense4} className="w-1/6 cursor-pointer mr-1" />
                 </div>
             </div>
             <div className="Footer-copy-right container-custom mx-auto text-sm flex text-gray-400 justify-between">
